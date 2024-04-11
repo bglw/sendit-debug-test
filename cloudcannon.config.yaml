@@ -24,7 +24,7 @@ collections_config:
     output: true
     url: '/blog/[slug]'
     create:
-      path: "[filename]"
+      path: "[relative_path]"
     _enabled_editors:
       - content
       - visual
